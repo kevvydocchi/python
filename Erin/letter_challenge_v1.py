@@ -27,7 +27,7 @@ for char in target_string:
             twice_in_a_row_count += 1 # Count how many times the letter occurs twice in a row
         pre_char = char # Assign the letter into pre_char
 
-# Print outcomes
+# Print output
 print(f"The target letter '{target_letter}' occurs {count} times in the string.")
 print(f"The target letter '{target_letter}' occurs twice in a row {twice_in_a_row_count} times in the string.")
 
