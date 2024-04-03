@@ -1,7 +1,7 @@
 """
 File name: leap_calendar_challenge.py
 Author: Erin Cho
-Created: 1/04/2024
+Created: 3/04/2024
 Description:
 This challenge requires you to write an algorithm in any programming language that
 will check whether a specified year is a leap year or not and then give the answer to the
@@ -51,6 +51,7 @@ year = input("Please input a year: ")
 
 # Use a function to check if a year entered is valid
 if check_year_input(year):
+
     # Convert string to integer
     year = int(year)
 
@@ -59,5 +60,6 @@ if check_year_input(year):
         print(f"{year} is a leap year")
     else:
         print(f"{year} is not a leap year")
+
 else:
-    print(f"Please enter a valid year.")
+    print(f"The input is not a valid year. please retry a program.")
