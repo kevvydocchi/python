@@ -46,7 +46,7 @@ def check_leap_year(year):
     else:
         return False
 
-# Get an input for a year then convert string into integer value
+# Get an input for a year
 year = input("Please input a year: ")
 
 # Use a function to check if a year entered is valid
