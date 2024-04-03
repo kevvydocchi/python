@@ -31,7 +31,7 @@ print(f"This program checks if a year entered is a leap year or not")
 # year = 2016
 
 # Create a function to check if a year entered is valid
-def check_year_input(year):
+def check_year_valid(year):
     if year.isdigit():
         return True
     else:
@@ -50,7 +50,7 @@ def check_leap_year(year):
 year = input("Please input a year: ")
 
 # Use a function to check if a year entered is valid
-if check_year_input(year):
+if check_year_valid(year):
 
     # Convert string to integer
     year = int(year)
